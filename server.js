@@ -18,7 +18,7 @@ app.use("/", express.static(__dirname + "/www"));
 
 app.get("/students", students.findAll);
 app.get("/students/:id", students.findById);
-app.get("/students/:id/enrollment", enrollments.findByStudent);
+app.get("/students/:id/enrollments", enrollments.findByStudent);
 app.post("/students", students.createItem);
 app.put("/students", students.updateItem);
 app.delete("/students/:id", students.deleteItem);
