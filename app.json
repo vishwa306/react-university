@@ -1,5 +1,5 @@
 {
-  "name": "React University - ZD demo app ",
+  "name": "React University - ZD demo app.  ",
   "description": "Reference app built with React and the Lightning Design System",
   "repository": "https://github.com/ccoenraets/react-university",
   "addons": ["heroku-postgresql:hobby-dev"]
