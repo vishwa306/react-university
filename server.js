@@ -38,7 +38,7 @@ app.put("/teachers", teachers.updateItem);
 app.delete("/teachers/:id", teachers.deleteItem);
 
 app.post("/enrollments", enrollments.createItem);
-app.delete("/enrollments/:id", enrollments.deleteItem);
+app.delete("/enrollment/:id", enrollments.deleteItem);
 
 app.get("/periods", periods.findAll);
 
