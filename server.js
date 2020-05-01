@@ -29,7 +29,6 @@ app.get("/courses/:id/enrollments", enrollments.findByCourse);
 app.post("/courses", courses.createItem);
 app.put("/courses", courses.updateItem);
 app.delete("/courses/:id", courses.deleteItem);
-
 app.get("/teachers", teachers.findAll);
 app.get("/teachers/:id", teachers.findById);
 app.get("/teachers/:id/courses", courses.findByTeacher);
